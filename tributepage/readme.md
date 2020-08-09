@@ -1,8 +1,6 @@
 # Description
-This project is a tribute page of Jane Jacobs and created as part of my html/css projects on freecodecamp.org.
-<div>
-<a href="http://htmlpreview.github.io/?https://github.com/urbanscratcher/HTMLCSS/blob/master/tributepage/main.html" target="_blank">Click this to check the preview page</a>
-</div>
+* This project is a tribute page of Jane Jacobs and created as part of my html/css projects on freecodecamp.org.
+* [preview page](http://htmlpreview.github.io/?https://github.com/urbanscratcher/HTMLCSS/blob/master/tributepage/main.html){:target="_blank"}
 
 # Screenshots
 <div>
