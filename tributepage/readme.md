@@ -1,6 +1,6 @@
 # Description
 * This project is a tribute page of Jane Jacobs and created as part of my html/css projects on freecodecamp.org.
-* [Preview Page](https://urbanscratcher.github.io/HTMLCSS/tributepage/main.html)
+* [Preview Page](https://urbanscratcher.github.io/HTMLCSS/tributepage/main.html) [ctrl/cmd + click]
 
 # Screenshots
 <div>
