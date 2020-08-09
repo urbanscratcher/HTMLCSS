@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;Recursive:wght@300;400;500;600;700&display=swap");
+html {
+    font-size: 10px;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: black;
+    background: yellow;
+}
+
+::selection {
+    color: black;
+    background: yellow;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+}
+
+h1 {
+    display: inline-block;
+    background-color: yellow;
+    padding: 0 2rem;
+    font-family: "Recursive", sans-serif;
+    font-size: 6rem;
+    font-weight: 700;
+    margin: 10rem 0;
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+}
+
+h2 {
+    display: inline-block;
+    background-color: #ffff00;
+    padding: 0 1.2rem;
+    margin: 0;
+    border-left: 0.3rem solid #333;
+}
+
+#img-div {
+    display: block;
+    text-align: center;
+}
+
+#image {
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#img-caption {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    display: inline-block;
+    border-bottom: 8px solid yellow;
+    height: 1.4rem;
+}
+
+ul {
+    margin-bottom: 5rem;
+}
+
+li {
+    padding: 0;
+    margin: 0.4rem 0;
+    list-style-type: square;
+}
+
+section {
+    margin: 4rem 7rem;
+}
+
+hr {
+    margin-bottom: 2rem;
+}
+
+article {
+    margin-bottom: 1rem;
+}
+
+blockquote {
+    background-color: #f3f3f3;
+    color: #888;
+    font-style: italic;
+    font-size: 1.5rem;
+    padding: 2rem 3rem;
+    margin: 0;
+}
+
+#video {
+    margin: 7rem 0 2rem 0;
+    padding-top: 56%;
+    position: relative;
+}
+
+#more-info {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+footer {
+    font-size: 1.5rem;
+    margin: 1rem 1rem;
+    text-align: center;
+    color: #888;
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 9px;
+    }
+    blockquote {
+        margin: 4rem 0;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    #tribute-info {
+        margin: 5rem 3rem;
+    }
+}
+
+@media (min-width: 600px) {
+    #tribute-info {
+        margin: 5rem 10rem;
+    }
+}
+
+@media (min-width: 800px) {
+    #tribute-info {
+        margin: 5rem 13rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    #tribute-info {
+        margin: 5rem 20rem;
+    }
+}
