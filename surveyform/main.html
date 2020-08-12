@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rowntown Survey Form</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="main.css">
+</head>
+
+
+<body>
+<main class="container">
+  <header class="header">
+    <h1 id="title" class="text-center">Rocktown Community Survey</h1>
+    <p id="description">Rocktown is currently working with its citizens to update its Community Plan. The Community Plan will serve as an important guide for land use and development, community facilities, open space, and transportation decision-making for Rocktown in the future. We invite you to participate in our community’s planning process. Your participation and input will be a valuable resource for our community.</p>
+  </header>
+
+  <form id="survey-form">
+    <h2>Personal Information</h2>
+    <section>
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input type="text"
+             name="name"
+             id="name"
+             class="form-control"
+             placeholder="Enter your name"
+             required />
+    </div>
+      
+          <div class="form-group">
+      <label id="number-label" for="number">Age</label>
+      <input type="number"
+             name="age"
+             id="number"
+             min=10
+             max=99
+             class="form-control"
+             placeholder="Enter your age"
+             required />
+    </div>
+    
+     <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input type="email"
+             name="email"
+             id="email"
+             class="form-control"
+             placeholder="Enter your Email"
+             required />
+    </div>
+    
+         <div class="form-group">
+           <label id="tel-label" for="tel">Contact number <span>(optional)</span></label>
+      <input type="tel"
+             name="tel"
+             id="tel"
+             class="form-control"
+             placeholder="phone number"
+             />
+    </div>
+      
+      <div class="form-group">
+        <p>Which option best describes your current status?</p>
+        <select id="dropdown" name="status" class="form-control" required>
+          <option>Select current status</option>
+          <option value="full-time-worker">Employed, working 40 or more hours per week</option>
+          <option value="part-time-worker">Employed, working 1-39 hours per week</option>
+          <option value="job-seeker">Not employed, looking for job</option>
+          <option value="not-job-seeker">Not employed, NOT looking for job</option>
+          <option value="student">Student</option>
+          <option value="retired">Retired</option>
+          <option value="disabled">Disabled, not able to work</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <p>Would you like your email address added to a Council distribution list?</p>
+        <label><input
+               type="radio"
+                      name="email-list"
+                      value="yes"
+                      class="input-radio"
+                      checked
+                      />Yes</label>
+        <label>
+          <input 
+                 name="email-list"
+                 type="radio"
+                 value="no"
+                 class="input-radio"
+                 />
+          No
+        </label>
+      </div>
+        </section>
+      
+    
+    
+    <h2>Your comments</h2>
+    <section>
+      
+      <div class="form-group">
+        <p>What do you consider to be important to your community?</p>
+        <textarea
+                 id="community-value"
+                  class="input-textarea"
+                  name="community-value"
+                  placeholder="Enter your comment here"></textarea>
+      </div>
+      
+       <div class="form-group">
+        <p>What are three things that would improve your community?</p>
+         <div>
+         <label for="first-improve">1. </label>
+         <input type="text"
+                name="first-improve"
+                id="first-improve"
+                class="form-control"
+                placeholder="Type here" /></div>
+         
+         <div>
+         <label for="second-improve">2. </label>
+         <input type="text"
+                name="second-improve"
+                id="second-improve"
+                class="form-control"
+                placeholder="Type here" /></div>
+         
+         <div>
+           <label for="third-improve">3. </label>
+         <input type="text"
+                name="third-improve"
+                id="third-improve"
+                class="form-control"
+                placeholder="Type here" />
+         </div></div>
+      
+      <div class="form-group">
+        <p>How do you find out about Council information? <span>(More than one option can be selected)</span></p>
+        
+        <label>
+          <input
+                 name="how-to-get-info"
+                 value="newletter"
+                 type="checkbox"
+                 class="input-checkbox"/>
+          Newsletter
+        </label>
+        
+               <label>
+          <input
+                 name="how-to-get-info"
+                 value="website"
+                 type="checkbox"
+                 class="input-checkbox"/>
+          Rocktown Council Website
+        </label>
+        
+        <label>
+         <input
+                 name="how-to-get-info"
+                 value="facebook"
+                 type="checkbox"
+                 class="input-checkbox"/>
+          Facebook
+        </label>
+        
+        <label>
+         <input
+                 name="how-to-get-info"
+                 value="instagram"
+                 type="checkbox"
+                 class="input-checkbox"/>
+          Instagram
+        </label>
+        
+         <label>
+         <input
+                 name="how-to-get-info"
+                 value="youtube"
+                 type="checkbox"
+                 class="input-checkbox"/>
+          Youtube
+        </label>
+        
+        <label>
+         <input
+                 name="how-to-get-info"
+                 value="twitter"
+                 type="checkbox"
+                 class="input-checkbox"/>
+          Twitter
+        </label>
+        
+        <label>
+         <input
+                 name="how-to-get-info"
+                 value="visit-office"
+                 type="checkbox"
+                 class="input-checkbox"/>
+          Visiting Rocktown Council Office
+        </label>
+        
+        <label>
+         <input
+                 name="how-to-get-info"
+                 value="visit-library"
+                 type="checkbox"
+                 class="input-checkbox"/>
+          Visiting Rocktown Council Library
+        </label>
+        
+        <label>
+         <input
+                 name="how-to-get-info"
+                 value="other"
+                 type="checkbox"
+                 class="input-checkbox"/>
+          Other
+        </label>
+        
+      </div>
+      
+      
+      <div class="form-group">
+        <p>Any comments or suggestions on Rocktown?</p>
+        <textarea
+                  id="comments"
+                  class="input-textarea"
+                  name="comment"
+                  placeholder="Enter your comment here"></textarea>
+        
+      </div>
+     
+      <div class="form-group text-center">
+        <button type="submit" id="submit" class="submit-button">SUBMIT</button>
+      </div>
+      
+      
+      
+    </section>
+      
+  </form>
+
+</main>
+
+
+</body>
+
+</html>
